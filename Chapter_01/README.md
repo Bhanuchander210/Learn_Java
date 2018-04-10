@@ -31,7 +31,7 @@
 
 Java was influenced by C++, it is not an enhanced version of C++. The important influence of JAVA is **C#**.
 
-### IMPORTANCE WITH WEB
+#### IMPORTANCE WITH WEB
 
 - applet
     - A special kind of Java program that is designed to be transmitted over the Internet and automatically executed by 
@@ -42,7 +42,7 @@ Java was influenced by C++, it is not an enhanced version of C++. The important 
     - Comfort with any platform for internet services.
     
     
-### HOW IT WORKS ?
+#### HOW IT WORKS ?
 
 ###### JAVA WITH BYTECODE
 
