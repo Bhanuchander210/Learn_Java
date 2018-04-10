@@ -12,6 +12,6 @@ Here i am starting to study java. Just adding my notes and codes of my learning
 
 #### References :
 
-- [java the complete reference 9th edition](/ref/Java%208%20The%20Complete%20Reference%20Ninth%20Edition.pdf)
+- [java the complete reference 9th edition](https://mitseu.files.wordpress.com/2014/08/java-the-complete-reference-ninth-editiona4.pdf)
 - [Udemy](https://www.udemy.com/)
 - [Sololearn](https://www.sololearn.com/)
