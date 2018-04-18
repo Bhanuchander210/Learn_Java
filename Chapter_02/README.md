@@ -6,7 +6,7 @@
 - [OOP-Principle](#oop-principles)
 - [Simple Program](#a-simple-program---with-description)
 
-<br>
+<hr>
 
 #### Object-Oriented Programming
 
@@ -53,7 +53,7 @@ programs.
 
 <hr>
 
-##### ENCAPSULATION
+###### 1. Encapsulation
 
 Encapsulation is the mechanism that binds together code and the data it manipulates, and
 keeps both safe from outside interference and misuse. It prevents the code and data from 
@@ -78,7 +78,7 @@ workings of a class
 
 
 
-##### INHERITANCE
+###### 2. Inheritance
 
 Inheritance is the process by which one object acquires the properties of another object. This
 is important because it supports the concept of hierarchical classification.
@@ -92,7 +92,7 @@ So the construction held like **superclass** (animal) and **subclass** (mammal).
 
 
 
-##### POLYMORPHISM 
+###### 3. Polymorphism 
 
 <a align="center"><i><b>"one interface, multiple methods.”</b></i><a>
 
@@ -124,9 +124,9 @@ public static void main(String args[]) {
 ```
 <br>
 
-  <p>Here, We know some thing about this code</p>
+  <p>Here, We know some thing about this code are, </p>
 
-- *Multiline comment*
+*Multiline comment*
 
 ```java
 /*
@@ -135,21 +135,21 @@ Call this file "Example.java".
 */
 ```
 
-- *class Identifier*
+*class Identifier*
 
 ```
 class Example {
 ```
 
-  Here *Example* is the class identifier. These are always implemented with camelcase for **convention**.
+  > Here *Example* is the class identifier. These are always implemented with camelcase for **convention**.
 
-- *Single-line comment*
+*Single-line comment*
 
 ```java
 // Your program begins with a call to main().
 ```
 
-- *Access Modifier*
+*Access Modifier*
 
 ```
 public static void main(String args[ ]) {}
