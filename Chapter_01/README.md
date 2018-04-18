@@ -70,3 +70,97 @@ content is available through mechanisms such as CGI (Common Gateway Interface), 
 including increased performance. Because servlets (like all Java programs) are compiled into bytecode and executed by the JVM, 
 they are highly portable. Thus, the same servlet can be used in a variety of different server environments. 
 The only requirements are that the server support the JVM and a servlet container.
+
+###### Buzzwords
+
+-    Robust
+-    Simple
+-    Secure
+-    Object oriented
+-    Portable
+-	 Multithreaded
+-	 Architecture-neutral
+-	 Interpreted
+-	 High performance
+-	 Distributed
+-	 Dynamic
+<br>
+To better understand how Java is robust, consider two of the main reasons for program
+failure: 
+- Memory management mistakes
+- Mishandled exceptional conditions
+
+1. Java virtually eliminates these problems by managing memory allocation and de-allocation for you. 
+   (In fact, de-allocation is completely automatic, because Java provides garbage collection for unused objects).
+   
+2. Java helps in this area by providing object-oriented exception handling.
+
+###### DISTRIBUTED
+
+Java is designed for the distributed environment of the Internet because it handles **TCP/IP** 
+protocols. In fact, accessing a resource using a URL is not much different from accessing a
+file. Java also supports *Remote Method Invocation (RMI)*. This feature enables a program to
+invoke methods across a network.
+
+###### GOAL
+
+> write once; run anywhere, any time, forever.
+
+###### EVOLUTION
+
+- Java 1.1 added many new library elements, redefined the way events are handled, and reconfigured many features of the 
+1.0 library. It also deprecated (rendered obsolete) several features originally defined by Java 1.0.
+
+- J2SE (Java 2 Platform Standard Edition) added support for a number of new features, such as Swing and the Collections
+Framework, and it enhanced the Java Virtual Machine and various programming tools.
+
+- 1.3 contained a smaller set of changes than the preceding three major releases, it was nevertheless important.
+
+- J2SE 1.4 added the new keyword assert,
+           chained exceptions, and a channel-based I/O subsystem. It also made changes to the
+           Collections Framework and the networking classes. In addition, numerous small changes
+           were made throughout. Despite the significant number of new features, version 1.4
+           maintained nearly 100 percent source-code compatibility with prior versions.
+           
+- J2SE 5 fundamentally expanded the scope, power, and range of the language.
+  1. Generics
+  2. Annotations
+  3. Autoboxing and auto-unboxing
+  4. Enumerations
+  5. Enhanced, for-each style for loop
+  6. Variable-length arguments (varargs)
+  7. Static import
+  8. Formatted I/O
+  9. Concurrency utilities
+  <br><br>
+  Annotations added an entirely new dimension to
+  programming. In all cases, the impact of these additions went beyond their direct effects.
+  They changed the very character of Java itself. it was named J2SE 5, and the developer’s kit was called JDK 5.
+  which is also referred to as the developer version number. The “5” in J2SE 5 is called the product version number.
+  
+- Java SE 6 served to further solidify the advances made by J2SE 5.
+
+- Java SE 7 contained many new features, including
+  significant additions to the language and the API libraries. Upgrades to the Java run-time
+  system that support non-Java languages were also included, but it is the language and
+  library additions that were of most interest to Java programmers.
+  <br>
+  
+  **Java SE 7** made several additions to the Java API library. Two of the most important were
+  the enhancements to the *NIO Framework* and the addition of the *Fork/Join Framework*.
+  
+- JDK 8 represents a very significant upgrade with new language
+ features: 
+    1. **java.util.stream.**
+    2. **java.util.function.** 
+  
+  <br>
+The lambda expression.The inclusion of lambda expressions has also had a wide-ranging effect on the Java 
+libraries, with new features being added to take advantage of them. One of the most
+important is the new stream API, which is packaged in **java.util.stream**.
+ 
+<br> 
+    
+ Another very important new package is **java.util.function.** It defines a number of functional interfaces,
+which provide additional support for lambda expressions. Other new lambda-related features
+are found throughout the API library.
