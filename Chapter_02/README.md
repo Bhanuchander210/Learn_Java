@@ -1,5 +1,12 @@
 ### JAVA-OOP
-<hr>
+
+#### CONTENTS
+
+- [OOP](#object-oriented-programming)
+- [OOP-Principle](#oop-principles)
+- [Simple Program](#a-simple-program---with-description)
+
+<br>
 
 #### Object-Oriented Programming
 
@@ -7,7 +14,7 @@ Object-oriented programming (OOP) is at the core of Java. In fact, all Java prog
 at least some extent object-oriented. OOP is so integral to Java that it is best to understand
 its basic principles before you begin writing even simple Java programs.
 
-<hr>
+
 
 ##### Why OOP needed ?
 
@@ -21,7 +28,7 @@ To manage increasing complexity, the second approach, called **object-oriented p
 Object-oriented programming organizes a program around its data (that is, objects) and a set of well-defined interfaces 
 to that data. An object-oriented program can be characterized as data controlling access to code.
 
-<hr>
+
 
 ##### Abstraction
 
@@ -57,7 +64,7 @@ Because an automatic transmission is encapsulated, dozens
 of car manufacturers can implement one in any way they please. However, from the driver’s
 point of view, they all work the same.
 
-<br>
+
 
 In Java, the basis of encapsulation is the **class.** <br>
 
@@ -69,7 +76,7 @@ public methods, you can ensure that no improper actions take place. Of course, t
 that the public interface should be carefully designed not to expose too much of the inner
 workings of a class
 
-<hr>
+
 
 ##### INHERITANCE
 
@@ -83,11 +90,11 @@ Without this you cannot make the hierarchy. If you fails to make hierarchy, just
 will fall on complexity because of the each and every explicit classes. you cannot connect **animal -> mammal -> dog.**
 So the construction held like **superclass** (animal) and **subclass** (mammal).
 
-<hr>
+
 
 ##### POLYMORPHISM 
 
-<a align="center"><i>"one interface, multiple methods.”</i><a>
+<a align="center"><i><b>"one interface, multiple methods.”</b></i><a>
 
 Polymorphism is a feature that allows one interface to be used for a general class of actions.
 
@@ -99,7 +106,9 @@ Polymorphism is a feature that allows one interface to be used for a general cla
            
 <hr>
            
-#### A Simple Program
+#### A Simple Program - with Description
+
+  Lets discuss about this simple program **Example.java**.
 
 ```java
 /*
@@ -115,7 +124,7 @@ public static void main(String args[]) {
 ```
 <br>
 
-<p>Here, We know some thing about this code</p>
+  <p>Here, We know some thing about this code</p>
 
 - *Multiline comment*
 
@@ -132,7 +141,7 @@ Call this file "Example.java".
 class Example {
 ```
 
-Here *Example* is the class identifier. These are always implemented with camelcase for **convention**.
+  Here *Example* is the class identifier. These are always implemented with camelcase for **convention**.
 
 - *Single-line comment*
 
@@ -147,7 +156,7 @@ public static void main(String args[ ]) {}
 ```
 <br>
 
-The public keyword is an **access modifier**, which allows the programmer to control the visibility of class members.
+  The public keyword is an **access modifier**, which allows the programmer to control the visibility of class members.
 
 <hr>
 
