@@ -112,6 +112,8 @@ Just advancing the scenario to get a school class register is explained below.
 ##### Super     
  
 Super is just used to call the super class constructor.
+
+See the file : [here](/codes/inheritance/super/Test.java)
       
 ```java
 class Animal 
@@ -135,4 +137,11 @@ public class Test
         new Dog(); 
     }
 }
+```
+
+#### Output is :
+
+```text
+Constructing an animal: From Dog constructor
+Constructing a dog.
 ```
