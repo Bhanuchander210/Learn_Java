@@ -7,6 +7,9 @@
 - [Arrays](#arrays)
     - [One Dimensional Array](#one-dimensional-array)
     - [Two Dimensional Array](#two-dimensional-array)
+    
+- [Inheritance](#inheri)
+    -[super](#super)
 
 ### Simple class
 
@@ -97,7 +100,39 @@ class Student {
 Here this simple code explains the `getter-setter`. Actually use of that defined inside the `showData()`.
 The methods `getId()`,`getName()` are used outside of the class to access the class variables.
 
-Just advancing the scenario to get a school class register, 
+Just advancing the scenario to get a school class register is explained below.
+
 ##### One Dimensional Array
 
 ##### Two Dimensional Array
+
+
+#### Inheritance
+
+##### Super     
+ 
+Super is just used to call the super class constructor.
+      
+```java
+class Animal 
+{ 
+    public Animal(String arg) {
+        System.out.println("Constructing an animal: " + arg);
+    }
+}
+      
+class Dog extends Animal 
+{
+    public Dog() {
+        super("From Dog constructor");
+        System.out.println("Constructing a dog.");
+    }
+}
+      
+public class Test 
+{
+    public static void main(String[] a) {
+        new Dog(); 
+    }
+}
+```
