@@ -1,17 +1,22 @@
 ## Getting started programming
-### Contents
+<hr>
+
+## Contents
 - [Simple Class](#simple-class)
 - [Methods](#methods)
     - [Getter and Setter](#getter-and-setter)
     - [Simple Application](#simple-application)
 - [Arrays](#arrays)
     - [One Dimensional Array](#one-dimensional-array)
-    - [Two Dimensional Array](#two-dimensional-array)
-    
-- [Inheritance](#inheri)
+    - [Two Dimensional Array](#two-dimensional-array)    
+- [Inheritance](#inheritance)
     -[super](#super)
+- [Polimorphism](#polimorphism)
+- [Abstract Classes](#abstract-classes)
+- [Exceptions](#exceptions)
 
 ### Simple class
+<hr>
 
 This is the basic class format of java.
 
@@ -30,6 +35,7 @@ Hello This is java simple code....
 Get the code : [here](/codes/simpleclass/Simple.java) 
 
 ### Methods
+<hr>
 
 Implementing methods inside the class will help you achieve specific work.
 
@@ -54,7 +60,7 @@ to get the class objects in **JAVA Style**.
 
 Getter and setter are the example to view further,
 
-##### Getter and Setter
+###### Getter and Setter
 
 These are just the methods to access the class variables in basic java way.
 
@@ -102,14 +108,15 @@ The methods `getId()`,`getName()` are used outside of the class to access the cl
 
 Just advancing the scenario to get a school class register is explained below.
 
-##### One Dimensional Array
+###### One Dimensional Array
 
-##### Two Dimensional Array
+###### Two Dimensional Array
 
 
-#### Inheritance
+### Inheritance
+<hr>
 
-##### Super     
+###### Super     
  
 Super is just used to call the super class constructor.
 
@@ -139,9 +146,18 @@ public class Test
 }
 ```
 
-#### Output is :
+###### Output is :
 
 ```text
 Constructing an animal: From Dog constructor
 Constructing a dog.
 ```
+
+### Polimorphism
+<hr>
+
+### Abstract Classes
+<hr>
+
+### Exceptions
+<hr>
