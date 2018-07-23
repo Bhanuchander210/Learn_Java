@@ -2,8 +2,8 @@
 
 ![java](/ref/img/java-logo.jpeg)
 <br>
-Here i am starting to study java. Just adding my notes and codes of my learning
- flow here.
+
+My Learning Notes.
  
 ### Contents:
 
